@@ -14,9 +14,16 @@ module.exports = {
             theme_color: "#FFC6C7",
             icons: [
               {
-                src: "/favicon.ico",
+                src: "./favicon.ico",
               },
             ],
+            iconPaths: {
+                maskicon: null,
+                favicon32: "./favicon.ico",
+                favicon16: "./favicon.ico",
+                appleTouchIcon: null,
+                msTileImage: null,
+              },
           },
       
           

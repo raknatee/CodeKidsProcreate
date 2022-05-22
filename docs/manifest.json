@@ -1,1 +1,1 @@
-{"name":"CodeKids Procreate","short_name":"CKPro","theme_color":"#FFC6C7","icons":[{"src":"/favicon.ico"}],"start_url":"./","display":"standalone","background_color":"#000000"}
+{"name":"CodeKids Procreate","short_name":"CKPro","theme_color":"#FFC6C7","icons":[{"src":"./favicon.ico"}],"start_url":"./","display":"standalone","background_color":"#000000","iconPaths":{"maskicon":null,"favicon32":"./favicon.ico","favicon16":"./favicon.ico","appleTouchIcon":null,"msTileImage":null}}
