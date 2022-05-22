@@ -5,7 +5,21 @@ module.exports = {
     pwa: {
         workboxOptions: {
             skipWaiting: true
-        }
+        },
+        manifestOptions: {
+            name: "CodeKids Procreate",
+            short_name: "CKPro",
+            start_url: "./",
+            display: "standalone",
+            theme_color: "#FFC6C7",
+            icons: [
+              {
+                src: "/favicon.ico",
+              },
+            ],
+          },
+      
+          
     },
     configureWebpack:{
         devServer: {    
