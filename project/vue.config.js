@@ -12,34 +12,23 @@ module.exports = {
             start_url: "./",
             display: "standalone",
             theme_color: "#FFC6C7",
-            icons: [
-              {
-                src: "./favicon.ico",
-              },
-            ],
-            iconPaths: {
-                maskicon: null,
-                favicon32: "./favicon.ico",
-                favicon16: "./favicon.ico",
-                appleTouchIcon: null,
-                msTileImage: null,
-              },
-          },
-      
-          
+
+
+
+        },
     },
-    configureWebpack:{
-        devServer: {    
+    configureWebpack: {
+        devServer: {
             disableHostCheck: true,
             host: '0.0.0.0',
             public: "0.0.0.0",
-            port:80,
+            port: 80,
         },
     },
-    css:{
-        loaderOptions:{
-            scss:{
-                prependData:`
+    css: {
+        loaderOptions: {
+            scss: {
+                prependData: `
                 @import "~@/scss/global.scss";
                 @import "~@/scss/color.scss";
                 
@@ -47,4 +36,5 @@ module.exports = {
             }
         }
     }
+
 }
