@@ -24,6 +24,7 @@ h1{
 
 
 .title-grid{
+  margin: 5rem 0;
   display: grid;
   width: 100vw;
   grid-template-columns: 1fr;

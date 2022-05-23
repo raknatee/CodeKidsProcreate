@@ -4,24 +4,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "07abc004b59f23af0f35",
-    "url": "/css/app.2cae88ed.css"
+    "revision": "4b14b79d52887f6c9245",
+    "url": "/css/app.3fe5d2bc.css"
   },
   {
-    "revision": "554fb535b0f5900b7668",
-    "url": "/css/chunk-13adaab5.01262a19.css"
+    "revision": "b563b53579e44f2178c3",
+    "url": "/css/chunk-03b17ce4.87da1695.css"
   },
   {
-    "revision": "a3f01f393e7f0ffce23e",
-    "url": "/css/chunk-68091cbc.01262a19.css"
+    "revision": "fc5a09d402245377ae0d",
+    "url": "/css/chunk-2db2ec21.87da1695.css"
   },
   {
-    "revision": "aa2dd0addbc69bbeaccf",
-    "url": "/css/chunk-90c288dc.fa153c0d.css"
+    "revision": "07488d6d531f33a5d0da",
+    "url": "/css/chunk-45cdd889.f287588c.css"
   },
   {
-    "revision": "cf9431a820a81f6976f8",
-    "url": "/css/chunk-c736e0f6.a19f15d7.css"
+    "revision": "13df26460a7120ae9e9d",
+    "url": "/css/chunk-8801785e.87da1695.css"
+  },
+  {
+    "revision": "33bbe1d99cba4fa3f97e",
+    "url": "/css/chunk-c4a4c2bc.ec930a53.css"
   },
   {
     "revision": "2e2580c23f01362b1798de6af5d1d55a",
@@ -36,28 +40,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eina/More Free Fonts on fontshmonts.com.url"
   },
   {
-    "revision": "e467eac1a99f7eec2be2c84d7f7f4473",
+    "revision": "81afc36a2bee2ae032aa42ee66bd3065",
     "url": "/index.html"
   },
   {
-    "revision": "07abc004b59f23af0f35",
-    "url": "/js/app.efe0b530.js"
+    "revision": "4b14b79d52887f6c9245",
+    "url": "/js/app.a97ff488.js"
   },
   {
-    "revision": "554fb535b0f5900b7668",
-    "url": "/js/chunk-13adaab5.cb9efb14.js"
+    "revision": "b563b53579e44f2178c3",
+    "url": "/js/chunk-03b17ce4.30b9b320.js"
   },
   {
-    "revision": "a3f01f393e7f0ffce23e",
-    "url": "/js/chunk-68091cbc.1d650772.js"
+    "revision": "fc5a09d402245377ae0d",
+    "url": "/js/chunk-2db2ec21.bb57c76f.js"
   },
   {
-    "revision": "aa2dd0addbc69bbeaccf",
-    "url": "/js/chunk-90c288dc.8e1e1271.js"
+    "revision": "07488d6d531f33a5d0da",
+    "url": "/js/chunk-45cdd889.74e06826.js"
   },
   {
-    "revision": "cf9431a820a81f6976f8",
-    "url": "/js/chunk-c736e0f6.307d5cf9.js"
+    "revision": "13df26460a7120ae9e9d",
+    "url": "/js/chunk-8801785e.74a744d1.js"
+  },
+  {
+    "revision": "33bbe1d99cba4fa3f97e",
+    "url": "/js/chunk-c4a4c2bc.b26e0ac4.js"
   },
   {
     "revision": "f4dad93ad5772f26ef38",
@@ -82,6 +90,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7313d135cd1004e41147511e92dff05e",
     "url": "/slide/2.jpeg"
+  },
+  {
+    "revision": "b5ce1742d309fec081db8d3ee4b654a7",
+    "url": "/slide/Actions/1.JPG"
+  },
+  {
+    "revision": "d8736d5c031132df74c44f55c1a71193",
+    "url": "/slide/Actions/2.JPG"
   },
   {
     "revision": "389ddc8d17590d52a53a56ee8c19f14f",

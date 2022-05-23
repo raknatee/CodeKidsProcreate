@@ -25,7 +25,10 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/brush-size',
     component: () => import("@/views/002-tools/BrushSize.vue")
-
+  },
+  {
+    path: '/actions',
+    component: () => import("@/views/002-tools/Actions.vue")
   }
 ]
 

@@ -19,7 +19,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .grid{
-  margin-top: 5rem;
+  margin: 5rem 0;
   display: grid;
   justify-items: center;
 }
