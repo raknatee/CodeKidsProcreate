@@ -30,6 +30,32 @@ const routes: Array<RouteRecordRaw> = [
     path: '/actions',
     component: () => import("@/views/002-tools/Actions.vue")
   }
+  ,
+  {
+    path: '/mask-tool',
+    component: () => import("@/views/002-tools/MaskTool.vue")
+  }
+  ,
+  {
+    path: '/brush',
+    component: () => import("@/views/002-tools/Brush.vue")
+  }
+  ,
+  {
+    path: '/smudge-tool',
+    component: () => import("@/views/002-tools/SmudgeTool.vue")
+  }
+  ,
+  {
+    path: '/colors',
+    component: () => import("@/views/002-tools/Colors.vue")
+  }
+
+  ,
+  {
+    path: '/export',
+    component: () => import("@/views/003-export.vue")
+  }
 ]
 
 const router = createRouter({

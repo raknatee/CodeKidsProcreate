@@ -5,10 +5,13 @@
 
     <div class="title-grid">
       <BasicButton to="/create-new-canvas">
-        1. Create New Canvas
+        1. Create the new Canvas
       </BasicButton>
       <BasicButton to="/tools">
         2. Tools
+      </BasicButton>
+      <BasicButton to="/export">
+        3. How to export the artwork
       </BasicButton>
     </div>
     

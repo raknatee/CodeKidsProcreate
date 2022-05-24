@@ -5,7 +5,7 @@
     <tool to="/actions">Actions</tool>
     <tool to="/mask-tool">Mask Tool</tool>
     <tool to="/brush">Brush</tool>
-    <tool to="/smudge">Smudge</tool>
+    <tool to="/smudge-tool">Smudge</tool>
     <tool to="/layers">Layers</tool>
     <tool to="/colors">Colors</tool>
 
