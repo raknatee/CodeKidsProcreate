@@ -49,13 +49,17 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/colors',
     component: () => import("@/views/002-tools/Colors.vue")
+  },
+  {
+    path:'/layers',
+    component: () => import("@/views/002-tools/Layers.vue")
   }
-
   ,
   {
     path: '/export',
     component: () => import("@/views/003-export.vue")
-  }
+  },
+
 ]
 
 const router = createRouter({
