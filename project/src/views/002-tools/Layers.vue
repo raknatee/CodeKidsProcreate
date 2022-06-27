@@ -1,14 +1,10 @@
 <template>
-  <img src="/slide/Layers/1.JPG" class="img-slide" alt="" />
-  <img src="/slide/Layers/2.JPG" class="img-slide" alt="" />
+  <ImageSlide src="/slide/Layers/1.JPG" />
+  <ImageSlide src="/slide/Layers/2.JPG" />
   
-  <div>
-    <video controls autoplay muted controlsList="nodownload">
-      <source src="/slide/Layers/3.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <VDO src="/slide/Layers/3.mp4"/>
 
-  <img class="img-slide" alt="" v-for="imgName in imgNames" :src="'/slide/Layers/'+imgName" :key="imgName" />
+  <ImageSlide v-for="imgName in imgNames" :src="'/slide/Layers/'+imgName" :key="imgName" />
 
   <tools />
 
@@ -36,8 +32,5 @@ export default defineComponent({
 <style lang="scss" scoped>
 h1 {
   text-align: center;
-}
-video{
-    width: 100vw;
 }
 </style>

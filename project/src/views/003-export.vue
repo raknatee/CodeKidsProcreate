@@ -1,9 +1,9 @@
 <template>
     <h1>1st Way</h1>
-    <img src="/slide/export/1.1.JPG" class="img-slide" alt="">
-    <img src="/slide/export/1.2.JPG" class="img-slide" alt="">
+    <ImageSlide src="/slide/export/1.1.JPG" />
+    <ImageSlide src="/slide/export/1.2.JPG" />
     <h1>2nd Way</h1>
-    <img src="/slide/export/2.JPG" class="img-slide" alt="">
+    <ImageSlide src="/slide/export/2.JPG" />
 
     <home/>
 

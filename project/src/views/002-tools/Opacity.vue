@@ -1,6 +1,6 @@
 <template>
   
-    <img src="/slide/Opacity.jpeg" class="img-slide" alt="">
+    <ImageSlide src="/slide/Opacity.jpeg" />
     <tools/>
 
 </template>

@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <img src="/slide/0.JPG" class="img-slide" alt="">
+   
+    <ImageSlide src="/slide/0.JPG" />
     <h1>Get Started with Procreate</h1>
 
     <div class="title-grid">
@@ -41,10 +42,11 @@ h1{
 <script lang="ts">
 import { defineComponent } from 'vue';
 import BasicButton from "@/components/BasicButton.vue"
+
 export default defineComponent({
   name: 'Home',
   components:{
-    BasicButton
+    BasicButton,
   }
 });
 </script>

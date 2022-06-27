@@ -1,6 +1,6 @@
 <template>
   
-    <img src="/slide/1.JPG" class="img-slide" alt="">
+    <ImageSlide src="/slide/1.JPG"/>
     <home/>
 
 </template>

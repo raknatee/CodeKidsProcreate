@@ -1,18 +1,14 @@
 <template>
   
-    <img src="/slide/Colors/1.JPG" class="img-slide" alt="">
+    <ImageSlide src="/slide/Colors/1.JPG" />
     <div class="center">
         <a href="https://html.codekids.raknatee.dev/lv01/04.html#rgb" target="_blank">Click here: Color System</a>
     </div>
-    <img src="/slide/Colors/2.JPG" class="img-slide" alt="">
-    <img src="/slide/Colors/3.JPG" class="img-slide" alt="">
+    <ImageSlide src="/slide/Colors/2.JPG" />
+    <ImageSlide src="/slide/Colors/3.JPG" />
 
+    <VDO src="/slide/Colors/filled-color.mp4"/>
 
-    <div>
-      <video controls autoplay muted controlsList="nodownload">
-        <source src="/slide/Colors/filled-color.mp4" type="video/mp4" />
-      </video>
-    </div>
     <tools/>
 
 </template>
@@ -51,7 +47,5 @@ a{
 a:hover{
     box-shadow: 5px 5px 10px 1px $blue-mint;
 }
-video{
-    width: 100vw;
-}
+
 </style>

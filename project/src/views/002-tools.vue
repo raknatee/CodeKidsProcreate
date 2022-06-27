@@ -1,8 +1,5 @@
 <template>
-    <div class="wapper">
-        <img src="/slide/2.jpeg" class="img-slide" alt="">
-        
-    </div>
+    <ImageSlide src="/slide/2.jpeg"/>
     <tools/>
     <home/>
 
@@ -21,15 +18,3 @@ export default defineComponent({
   }
 });
 </script>
-
-<style lang="scss" scoped>
-.wapper{
-    position: relative;
-}
-.img{
-    position: absolute;
-    top:0;
-    left: 0;
-}
-
-</style>
